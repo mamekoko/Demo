@@ -26,6 +26,58 @@
   margin-bottom: 2rem;
 }
 
+/* Contents */
+.brown-bg {
+    background: #f8f6f2;
+}
+.content {
+    padding: 4rem 1rem;
+}
+.home-text {
+    margin-bottom: 2rem;
+}
+.home-chart {
+    margin-left: 2vw;
+}
+.flex-reverse .home-chart {
+    margin: 0 2vw 0 0;
+}
+.home-chart img {
+    width: 100%;
+}
+.home-chart p {
+    text-align: center;
+}
+
+/* グラフの文字 */
+.ct-label {
+    font-size: 1rem;
+    fill: #fff;
+}
+
+/* 円グラフ */
+.ct-series-a .ct-slice-pie {
+    fill: #2d3374;
+}
+.ct-series-b .ct-slice-pie {
+    fill: #3a7edf;
+}
+.ct-series-c .ct-slice-pie {
+    fill: #9bcbf8;
+}
+.ct-series-d .ct-slice-pie {
+    fill: #bbb;
+}
+
+/* 棒グラフ */
+.ct-series-a .ct-bar {
+    stroke: #3a7edf;
+}
+.ct-bar {
+    stroke-width: 16%;
+}
+
+
 @media(min-width: 600px) {
   /*デスクトップサイズ*/
   .home-hero{
@@ -41,3 +93,4 @@
     width: 38vw;
   }
 }
+
