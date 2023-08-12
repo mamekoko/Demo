@@ -15,7 +15,7 @@
   /*[rem]基準となる要素のサイズによって変動*/
   margin: 8vw 0 12vw;
   /*[vw]ビューポートの幅を基準によって変動*/
-  background: rgba(225,225,225,.8)
+  background: rgba(225,225,225,.8);
   /*.8は透明度を表してる*/
   padding: 1rem;
   display: inline-block;
@@ -27,6 +27,7 @@
 }
 
 @media(min-width: 600px) {
+  /*デスクトップサイズ*/
   .home-hero{
     padding: 16vw 1rem;
   }
@@ -39,4 +40,4 @@
   .home-hero p{
     width: 38vw;
   }
-  
+}
